@@ -1,6 +1,6 @@
 #!/bin/bash
 
-find . -name "*.mp4" -exec mv -t /tmp/zm {} +
+find / -name "*.mp4" -exec mv -t /tmp/zm {} +
 
 zip `$(date +"%Y-%m-%dT%H:%M:%S)`.zip /tmp/zm/
 
